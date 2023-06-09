@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cover-box {
+    width: 22%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 10%;
+    background: #d3d3d329;
+    box-shadow: inset 0 -3em 3em #0000001a, 0 0 0 2px #ffffff,
+        0.3em 0.3em 1em #0000004d;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.underline {
+    width: 25px;
+    height: 3px;
+    background: #000000;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px 6px;
+    border-color: #00000031;
+}
+
+.glabel {
+    font-weight: normal;
+}
+
+h4 {
+    margin: 15px 0 7px;
+}
+
+.radios {
+    display: flex;
+    gap: 10px;
+
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 17px 0;
+    background: linear-gradient(to right, #87ceeb, #00008b);
+    color: #ffffff;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #00008b, #87ceeb);
+}
+
+.error1,
+.error2,
+.error3,
+.error4,
+.error5,
+.error6,
+.error7 {
+    color: #ff0000;
+
+}

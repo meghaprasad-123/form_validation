@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cover-box">
+        <h1>Registration</h1>
+        <div class="underline"></div>
+
+        <form id="registrationForm">
+            <div class="row">
+                <div class="col">
+                    <label for="">Full Name</label>
+                    <input id="fullname" type="text" placeholder="Enter your name">
+                    <p class="error1"></p>
+                </div>
+                <div class="col">
+                    <label for="">Username</label>
+                    <input id="username" type="text" placeholder="Enter your username">
+                    <p class="error2"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="">Email</label>
+                    <input id="mail" type="email" placeholder="Enter your email">
+                    <p class="error3"></p>
+                </div>
+                <div class="col">
+                    <label for="">Phone number</label>
+                    <input id="number" type="text" placeholder="Enter your number">
+                    <p class="error4"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label for="">Password</label>
+                    <input id="password" type="password" placeholder="Enter your password">
+                    <p class="error5"></p>
+                </div>
+                <div class="col">
+                    <label for="">Confirm password</label>
+                    <input id="c-password" type="password" placeholder="Confirm your password">
+                    <p class="error6"></p>
+                </div>
+            </div>
+
+            <h4>Gender</h4>
+            <div class="radios">
+                <input type="radio" id="g1" name="gender" value="male"><label class="glabel" for="g1">Male</label>
+                <input type="radio" id="g2" name="gender" value="female"><label class="glabel" for="g2">Female</label>
+                <input type="radio" id="g3" name="gender" value="hide"><label class="glabel" for="g3">Prefer not to
+                    say</label>
+            </div>
+            <p class="error7"></p>
+
+            <button type="submit">Register</button>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
